@@ -11,7 +11,7 @@ public class Line {
 	}
 
 	public boolean intersects(Line l) {
-		return false;
+		return true;
 	}
 	
 	
