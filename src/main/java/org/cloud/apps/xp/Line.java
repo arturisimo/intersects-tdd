@@ -2,15 +2,15 @@ package org.cloud.apps.xp;
 
 public class Line {
 	
-	public Line(Coordinate c, double m) {
+	public Line(Coordinate point, double gradient) {
 		
 	}
 	
-	public Line(Coordinate c1, Coordinate c2) {
+	public Line(Coordinate point, Coordinate endPoint) {
 		
 	}
 
-	public boolean intersects(Line l) {
+	public boolean intersects(Line line) {
 		return true;
 	}
 	
